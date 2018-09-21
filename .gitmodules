@@ -17,3 +17,8 @@
 	path = ovnicraft/server-tools
 	url = git@github.com:ovnicraft/server-tools.git
 	branch = 10.0
+
+[submodule "OCA/bank-payment"]
+	path = OCA/bank-payment
+	url = git@github.com:OCA/bank-payment.git
+	branch = 10.0
