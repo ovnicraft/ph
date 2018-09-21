@@ -1,0 +1,4 @@
+[submodule "prisehub/hr"]
+	path = prisehub/hr
+	url = git@github.com:prisehub/hr.git
+	branch = 10.0
