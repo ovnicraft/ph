@@ -22,3 +22,6 @@
 	path = OCA/bank-payment
 	url = git@github.com:OCA/bank-payment.git
 	branch = 10.0
+[submodule "odooec"]
+	path = odooec
+	url = git@github.com:ovnicraft/odooec.git
