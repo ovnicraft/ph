@@ -25,3 +25,9 @@
 [submodule "odooec"]
 	path = odooec
 	url = git@github.com:ovnicraft/odooec.git
+[submodule "hrms"]
+	path = hrms
+	url = git@github.com:ovnicraft/hrms.git
+[submodule "cybro"]
+	path = cybro
+	url = git@github.com:ovnicraft/cybro.git
