@@ -37,12 +37,12 @@
 	url = git@github.com:OCA/account-payment.git
 	branch = 10.0
 
-[submodule "OCA/account-financial-reporting"]
-	path = OCA/account-financial-reporting
-	url = git@github.com:OCA/account-financial-reporting.git
-	branch = 10.0
-
 [submodule "OCA/web"]
 	path = OCA/web
 	url = git@github.com:OCA/web.git
+	branch = 10.0
+
+[submodule "OCA/account-financial-reporting"]
+	path = OCA/account-financial-reporting
+	url = git@github.com:OCA/account-financial-reporting.git
 	branch = 10.0
