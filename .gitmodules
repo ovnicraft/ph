@@ -56,3 +56,8 @@
 	path = OCA/queue
 	url = git@github.com:OCA/queue.git
 	branch = 10.0
+
+[submodule "OCA/mis-builder"]
+	path = OCA/mis-builder
+	url = git@github.com:OCA/mis-builder.git
+	branch = 10.0
