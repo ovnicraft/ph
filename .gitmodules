@@ -62,3 +62,7 @@
 	url = git@github.com:OCA/mis-builder.git
 	branch = 10.0
 
+[submodule "account-reconcile"]
+	path = account-reconcile
+	url = git@github.com:ovnicraft/account-reconcile.git
+	branch = 10.0-imp-bank-reconciliation
