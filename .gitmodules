@@ -57,12 +57,13 @@
 	url = git@github.com:OCA/queue.git
 	branch = 10.0
 
+<<<<<<< HEAD
 [submodule "OCA/mis-builder"]
 	path = OCA/mis-builder
 	url = git@github.com:OCA/mis-builder.git
 	branch = 10.0
 
-[submodule "OCA/account-reconcile"]
-	path = OCA/account-reconcile
-	url = git@github.com:OCA/account-reconcile.git
-	branch = 10.0
+[submodule "ovnicraft/account-reconcile"]
+	path = ovnicraft/account-reconcile
+	url = git@github.com:ovnicraft/account-reconcile.git
+	branch = 10.0-imp-bank-reconciliation
