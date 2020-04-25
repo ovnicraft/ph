@@ -66,3 +66,8 @@
 	path = account-reconcile
 	url = git@github.com:ovnicraft/account-reconcile.git
 	branch = 10.0-imp-bank-reconciliation
+
+[submodule "prisehub/l10n-ec"]
+	path = prisehub/l10n-ec
+	url = git@github.com:prisehub/l10n-ec.git
+	branch = 10.0
