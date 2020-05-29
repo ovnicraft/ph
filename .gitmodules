@@ -68,3 +68,8 @@
 	path = prisehub/l10n-ec
 	url = git@github.com:prisehub/l10n-ec.git
 	branch = 10.0
+
+[submodule "prisehub/phaccount"]
+	path = prisehub/phaccount
+	url = git@github.com:prisehub/phaccount.git
+	branch = 10.0
