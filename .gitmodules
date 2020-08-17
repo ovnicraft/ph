@@ -73,3 +73,7 @@
 	path = prisehub/phaccount
 	url = git@github.com:prisehub/phaccount.git
 	branch = 10.0
+[submodule "prisehub/schreurs"]
+	path = prisehub/schreurs
+	url = git@github.com:prisehub/schreurs.git
+	branch = 10.0
