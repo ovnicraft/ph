@@ -22,6 +22,8 @@ modules2uninstall = [
     "report_stock_picking",
     "stock_cancel",
     "stock_picking_internal",
+    "mass_editing_groups",
+    "base_xlsx",
 ]
 
 
@@ -53,6 +55,11 @@ def remove_view(env):
         for ele in doc.xpath("//field[@name='auth_number']"):
             ele.getparent().remove(ele)
 
+        for ele in doc.xpath("//field[@name='clave_acesso']"):
+            ele.getparent().remove(ele)
+
+        view.arch_db = etree.tostring(doc)
+
     env.cr.commit()
 
 
@@ -60,8 +67,8 @@ def update_list(env):
     env["ir.module.module"].update_list()
 
 
-def upgrade_base(env):
-    mod = env["ir.module.module"].search([("name", "=", "base")])
+def update_modules(env, module_names):
+    mod = env["ir.module.module"].search([("name", "in", module_names)])
     mod.button_immediate_upgrade()
 
 
@@ -72,7 +79,8 @@ def main(env):
     uninstall(env, modules2uninstall)
     update_list(env)
     uninstall(env, ["l10_ec_chart"])
-    install(env, ["base_vat"])
+    install(env, ["base_vat", "report_xml"])
+    update_modules(env, ["base", "report_xlsx"])
 
 
 if __name__ == "__main__":
