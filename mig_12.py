@@ -32,7 +32,7 @@ def uninstall(env, module_names):
         [("name", "in", module_names), ("state", "=", "installed")]
     )
     logger.info("uninstalling %s", modules.mapped("name"))
-    modules.button_immediate_uninstall()
+    modules.module_uninstall()
     env.cr.commit()
 
 
@@ -55,11 +55,6 @@ def remove_view(env):
         for ele in doc.xpath("//field[@name='auth_number']"):
             ele.getparent().remove(ele)
 
-        for ele in doc.xpath("//field[@name='clave_acceso']"):
-            ele.getparent().remove(ele)
-
-        view.arch_db = etree.tostring(doc)
-
     env.cr.commit()
 
 
@@ -70,14 +65,15 @@ def update_list(env):
 def update_modules(env, module_names):
     mod = env["ir.module.module"].search([("name", "in", module_names)])
     mod.button_immediate_upgrade()
+    env.cr.commit()
 
 
 @click.command()
-@click_odoo.env_options(with_rollback=False)
+@click_odoo.env_options()
 def main(env):
     remove_view(env)
-    uninstall(env, modules2uninstall)
     update_list(env)
+    uninstall(env, modules2uninstall)
     uninstall(env, ["l10_ec_chart"])
     install(env, ["base_vat", "report_xml"])
     update_modules(env, ["base", "report_xlsx"])
