@@ -55,7 +55,7 @@ def remove_view(env):
         for ele in doc.xpath("//field[@name='auth_number']"):
             ele.getparent().remove(ele)
 
-        for ele in doc.xpath("//field[@name='clave_acesso']"):
+        for ele in doc.xpath("//field[@name='clave_acceso']"):
             ele.getparent().remove(ele)
 
         view.arch_db = etree.tostring(doc)
