@@ -47,6 +47,7 @@ def install(env, names):
 
 def remove_view(env):
     env.cr.execute("delete from ir_ui_view where id = 1169")
+    # this db has manually fields inserted
     views = env["ir.ui.view"].search([("arch_db", "ilike", "%auth_number%")])
     from lxml import etree
 
@@ -54,12 +55,14 @@ def remove_view(env):
         doc = etree.fromstring(view.arch_db)
         for ele in doc.xpath("//field[@name='auth_number']"):
             ele.getparent().remove(ele)
-
+            logger.info("Removing from view %s", view.name)
+        view.arch_db = etree.tostring(doc)
     env.cr.commit()
 
 
 def update_list(env):
     env["ir.module.module"].update_list()
+    env.cr.commit()
 
 
 def update_modules(env, module_names):
@@ -74,7 +77,7 @@ def main(env):
     remove_view(env)
     update_list(env)
     uninstall(env, modules2uninstall)
-    uninstall(env, ["l10_ec_chart"])
+    uninstall(env, ["l10n_ec_chart"])
     install(env, ["base_vat", "report_xml"])
     update_modules(env, ["base", "report_xlsx"])
 
