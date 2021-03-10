@@ -46,7 +46,7 @@ UPDATE ir_translation SET module = 'l10n_ec_followup'
        WHERE module = 'account_followup_ec';
 
 
-DELETE FROM ir_ui_view where name = 'view.account.payment.line.conciled.form';
-DELETE FROM ir_ui_view where name = 'view.users.restrictions.stocks';
-DELETE FROM ir_ui_view where arch_db ilike '%auth_number%';
-DELETE FROM ir_ui_view WHERE name = 'account.refund.invoice.wizard.form';
+--DELETE FROM ir_ui_view where name = 'view.account.payment.line.conciled.form';
+--DELETE FROM ir_ui_view where name = 'view.users.restrictions.stocks';
+--DELETE FROM ir_ui_view where arch_db ilike '%auth_number%';
+--DELETE FROM ir_ui_view WHERE name = 'account.refund.invoice.wizard.form';
