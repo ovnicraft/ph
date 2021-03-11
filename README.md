@@ -9,3 +9,9 @@ Migration steps
 2. uninstall account_report_qweb
 3. quitar de la vista de authorisation el campo auth_number
 4. -u l10n_ec_partner
+
+
+
+TODO
+
+* fix l10n_ec_followup, erro reported
