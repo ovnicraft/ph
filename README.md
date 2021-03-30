@@ -15,3 +15,6 @@ Migration steps
 TODO
 
 * fix l10n_ec_followup, erro reported
+* activar vista tree de account.payment.order
+* Cambiar metodo de pago transferencia a outbound y codigo tranfer_out
+* activar vista de third_party de factura de proveedor
