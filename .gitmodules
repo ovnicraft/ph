@@ -33,11 +33,6 @@
 	url = git@github.com:OCA/account-financial-reporting.git
 	branch = 12.0
 
-[submodule "OCA/stock-logistics-workflow"]
-	path = OCA/stock-logistics-workflow
-	url = git@github.com:OCA/stock-logistics-workflow.git
-	branch = 12.0
-
 [submodule "OCA/account-reconcile"]
 	path = OCA/account-reconcile
 	url = git@github.com:OCA/account-reconcile.git
@@ -77,7 +72,11 @@
 	path = prisehub/account
 	url = git@github.com:prisehub/phaccount.git
 	branch = 12.0
-[submodule "prisehub/schreurs-odoo"]
-	path = prisehub/schreurs-odoo
+[submodule "prisehub/stock-logistics-workflow"]
+	path = prisehub/stock-logistics-workflow
+	url = git@github.com:prisehub/stock-logistics-workflow
+	branch = 12.0
+[submodule "schreurs12"]
+	path = schreurs12
 	url = git@github.com:prisehub/schreurs.git
 	branch = 12.0
