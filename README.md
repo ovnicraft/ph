@@ -18,3 +18,4 @@ TODO
 * activar vista tree de account.payment.order
 * Cambiar metodo de pago transferencia a outbound y codigo tranfer_out
 * activar vista de third_party de factura de proveedor
+update  migration 12 
