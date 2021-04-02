@@ -61,10 +61,6 @@
 	path = prisehub/phhr
 	url = git@github.com:prisehub/phhr.git
 	branch = 12.0
-[submodule "prisehub/schreurs"]
-	path = prisehub/schreurs
-	url = git@github.com:prisehub/schreurs.git
-	branch = 12.0
 [submodule "OCA/server-ux"]
 	path = OCA/server-ux
 	url = git@github.com:OCA/server-ux.git
@@ -80,4 +76,8 @@
 [submodule "prisehub/account"]
 	path = prisehub/account
 	url = git@github.com:prisehub/phaccount.git
+	branch = 12.0
+[submodule "prisehub/schreurs12"]
+	path = prisehub/schreurs12
+	url = git@github.com:prisehub/schreurs.git
 	branch = 12.0
