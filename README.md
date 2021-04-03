@@ -19,3 +19,4 @@ TODO
 * Cambiar metodo de pago transferencia a outbound y codigo tranfer_out
 * activar vista de third_party de factura de proveedor
 update  migration 12 
+update  migration 12.0.1.0.0 
