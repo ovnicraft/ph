@@ -20,3 +20,4 @@ TODO
 * activar vista de third_party de factura de proveedor
 update  migration 12 
 update  migration 12.0.1.0.0 
+update  migration 12.0.1.0.0 
