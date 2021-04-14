@@ -23,3 +23,4 @@ update  migration 12.0.1.0.0
 update  migration 12.0.1.0.0 
 update  migration 12.0.1.0.0 
 update  migration 12.0.1.0.0 
+update  migration 12.0.1.0.4 
