@@ -18,11 +18,6 @@
 	url = git@github.com:OCA/bank-payment.git
 	branch = 12.0
 
-[submodule "OCA/account-payment"]
-	path = OCA/account-payment
-	url = git@github.com:OCA/account-payment.git
-	branch = 12.0
-
 [submodule "OCA/web"]
 	path = OCA/web
 	url = git@github.com:OCA/web.git
@@ -80,3 +75,7 @@
 	path = OCA/stock-logistics-workflow
 	url = git@github.com:OCA/stock-logistics-workflow.git
 	branch = 12.0
+[submodule "OCA/account-payment"]
+	path = OCA/account-payment
+	url = git@github.com:ovnicraft/account-payment-1.git
+	branch = 12.0-mig-account_payment_batch_process
