@@ -67,10 +67,6 @@
 	path = prisehub/account
 	url = git@github.com:prisehub/phaccount.git
 	branch = 12.0
-[submodule "schreurs12"]
-	path = schreurs12
-	url = git@github.com:prisehub/schreurs.git
-	branch = 12.0
 [submodule "OCA/stock-logistics-workflow"]
 	path = OCA/stock-logistics-workflow
 	url = git@github.com:OCA/stock-logistics-workflow.git
