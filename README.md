@@ -25,3 +25,4 @@ update  migration 12.0.1.0.0
 update  migration 12.0.1.0.0 
 update  migration 12.0.1.0.4 
 update  migration 12.0.1.0.6 
+update contracts 
