@@ -1,82 +1,78 @@
 [submodule "OCA/hr"]
 	path = OCA/hr
 	url = git@github.com:OCA/hr.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/reporting-engine"]
 	path = OCA/reporting-engine
 	url = git@github.com:OCA/reporting-engine.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/account-financial-tools"]
 	path = OCA/account-financial-tools
 	url = git@github.com:OCA/account-financial-tools.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/bank-payment"]
 	path = OCA/bank-payment
 	url = git@github.com:OCA/bank-payment.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/web"]
 	path = OCA/web
 	url = git@github.com:OCA/web.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/account-financial-reporting"]
 	path = OCA/account-financial-reporting
 	url = git@github.com:OCA/account-financial-reporting.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/account-reconcile"]
 	path = OCA/account-reconcile
 	url = git@github.com:OCA/account-reconcile.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/queue"]
 	path = OCA/queue
 	url = git@github.com:OCA/queue.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "OCA/mis-builder"]
 	path = OCA/mis-builder
 	url = git@github.com:OCA/mis-builder.git
-	branch = 12.0
+	branch = 15.0
 
 [submodule "prisehub/l10n-ec"]
 	path = prisehub/l10n-ec
 	url = git@github.com:prisehub/l10n-ec.git
-	branch = 12.0
+	branch = 15.0
 [submodule "prisehub/phhr"]
 	path = prisehub/phhr
 	url = git@github.com:prisehub/phhr.git
-	branch = 12.0
+	branch = 15.0
 [submodule "OCA/server-ux"]
 	path = OCA/server-ux
 	url = git@github.com:OCA/server-ux.git
-	branch = 12.0
+	branch = 15.0
 [submodule "OCA/partner-contact"]
 	path = OCA/partner-contact
 	url = git@github.com:OCA/partner-contact.git
-	branch = 12.0
+	branch = 15.0
 [submodule "OCA/product-attribute"]
 	path = OCA/product-attribute
 	url = git@github.com:OCA/product-attribute.git
-	branch = 12.0
+	branch = 15.0
 [submodule "prisehub/account"]
 	path = prisehub/account
 	url = git@github.com:prisehub/phaccount.git
-	branch = 12.0
+	branch = 15.0
 [submodule "OCA/stock-logistics-workflow"]
 	path = OCA/stock-logistics-workflow
 	url = git@github.com:OCA/stock-logistics-workflow.git
-	branch = 12.0
-[submodule "OCA/account-payment"]
-	path = OCA/account-payment
-	url = git@github.com:ovnicraft/account-payment-1.git
-	branch = 12.0-mig-account_payment_batch_process
+	branch = 15.0
 
 [submodule "prisehub/schreurs"]
 	path = prisehub/schreurs
 	url = git@github.com:prisehub/schreurs.git
-	branch = 12.0
+	branch = 15.0
