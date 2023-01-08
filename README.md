@@ -12,6 +12,14 @@ for locally run please check `run.sh`
 
 - account_move_cancel
 - web_export_view
+- mass_operation_abstract
+- l10n_ec_followup
+- account_payment_import_invoice
+- web_widget_many2many_tags_multi_selection
+- account_move_chatter
+- l10n_ec_liq_purchase
+- hr_payroll_cancel
+- resource_hook
 
 ### Common actions
 
