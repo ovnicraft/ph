@@ -20,6 +20,7 @@ for locally run please check `run.sh`
 - l10n_ec_liq_purchase
 - hr_payroll_cancel
 - resource_hook
+- mass_editing
 
 ### Common actions
 
