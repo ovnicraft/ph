@@ -30,8 +30,8 @@
 
 [submodule "OCA/account-reconcile"]
 	path = OCA/account-reconcile
-	url = git@github.com:OCA/account-reconcile.git
-	branch = 15.0
+	url = git@github.com:Hardik-OSI/account-reconcile.git
+	branch = 15.0-MIG-account_banking_reconciliation
 
 [submodule "OCA/queue"]
 	path = OCA/queue
